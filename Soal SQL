@@ -1,1 +1,9 @@
-
+create database data_induk
+create table data_santri (
+		ID int,
+		first_name char(125), 
+		last_name char(125),
+		age int,
+		created_at datetime,
+		modified_at datetime
+		);
